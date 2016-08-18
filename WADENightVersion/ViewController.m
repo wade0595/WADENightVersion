@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DKNightVersion.h"
+//#import "DKNightVersion.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.dk_manager.themeVersion = DKThemeVersionNormal;
+    //self.dk_manager.themeVersion = DKThemeVersionNormal;
     //self.dk_manager.themeVersion = DKThemeVersionNight;
     
 }
