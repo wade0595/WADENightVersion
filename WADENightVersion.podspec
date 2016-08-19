@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WADENightVersion"
-  s.version      = “0.0.2”
+  s.version      = "0.0.2"
   s.summary      = "使用IBInspectable标志一个需要修改的颜色属性"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wade0595/WADENightVersion.git", :tag => “0.0.2”}
+  s.source       = { :git => "https://github.com/wade0595/WADENightVersion.git", :tag => "0.0.2"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
