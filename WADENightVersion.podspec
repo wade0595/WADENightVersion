@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WADENightVersion"
-  s.version      = "0.0.2"
+  s.version      = “0.0.3"
   s.summary      = "使用IBInspectable标志一个需要修改的颜色属性"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wade0595/WADENightVersion.git", :tag => "0.0.2"}
+  s.source       = { :git => "https://github.com/wade0595/WADENightVersion.git", :tag => “0.0.3"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,7 +104,15 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "WADENightVersion/Class/**/*.{h,m}"
+  s.source_files  = 	"WADENightVersion/Class/ColorTable/*.{h,m}",
+			"WADENightVersion/Class/Core/*.{h,m}",
+			"WADENightVersion/Class/CoreAnimation/*.{h,m}",
+			"WADENightVersion/Class/DeallocBlockExecutor/*.{h,m}",
+			"WADENightVersion/Class/extobjc/*.{h,m}",
+			"WADENightVersion/Class/Manual/*.{h,m}",
+			"WADENightVersion/Class/UIKit/*.{h,m}",
+			"WADENightVersion/Class/*.{h,m}"
+
   # s.exclude_files = "WADENightVersion/Class"
 
   # s.public_header_files = "Classes/**/*.h"
