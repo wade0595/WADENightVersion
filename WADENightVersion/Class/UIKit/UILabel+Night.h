@@ -19,7 +19,6 @@ IB_DESIGNABLE
 @property (nonatomic, copy, setter = dk_setShadowColorPicker:) DKColorPicker dk_shadowColorPicker;
 @property (nonatomic, copy, setter = dk_setHighlightedTextColorPicker:) DKColorPicker dk_highlightedTextColorPicker;
 
-
 @property (nonatomic, copy) IBInspectable NSString *wade_textColorPicker;
 @property (nonatomic, copy) IBInspectable NSString *wade_shadowColorPicker;
 @property (nonatomic, copy) IBInspectable NSString *wade_highlightedTextColorPicker;

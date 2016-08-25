@@ -43,7 +43,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setTrackTintColor:"];
 }
 
--(void)setwade_trackTintColorPicker:(NSString *)wade_trackTintColorPicker
+-(void)setWade_trackTintColorPicker:(NSString *)wade_trackTintColorPicker
 {
     self.dk_trackTintColorPicker = DKColorPickerWithKey(wade_trackTintColorPicker);
 }
@@ -53,7 +53,7 @@
     return self.wade_trackTintColorPicker;
 }
 
--(void)setwade_progressTintColorPicker:(NSString *)wade_progressTintColorPicker
+-(void)setWade_progressTintColorPicker:(NSString *)wade_progressTintColorPicker
 {
     self.dk_progressTintColorPicker = DKColorPickerWithKey(wade_progressTintColorPicker);
 }

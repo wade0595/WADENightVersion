@@ -26,7 +26,7 @@
 @dynamic wade_textColorPicker;
 @dynamic wade_shadowColorPicker;
 
--(void)setwade_textColorPicker:(NSString *)wade_textColorPicker
+-(void)setWade_textColorPicker:(NSString *)wade_textColorPicker
 {
     self.dk_textColorPicker = DKColorPickerWithKey(wade_textColorPicker);
 }
@@ -36,7 +36,7 @@
     return self.wade_textColorPicker;
 }
 
--(void)setwade_shadowColorPicker:(NSString *)wade_shadowColorPicker
+-(void)setWade_shadowColorPicker:(NSString *)wade_shadowColorPicker
 {
     self.dk_shadowColorPicker = DKColorPickerWithKey(wade_shadowColorPicker);
 }
@@ -46,7 +46,7 @@
     return self.wade_shadowColorPicker;
 }
 
--(void)setwade_highlightedTextColorPicker:(NSString *)wade_highlightedTextColorPicker
+-(void)setWade_highlightedTextColorPicker:(NSString *)wade_highlightedTextColorPicker
 {
     self.dk_highlightedTextColorPicker = DKColorPickerWithKey(wade_highlightedTextColorPicker);
 }

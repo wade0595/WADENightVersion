@@ -18,6 +18,35 @@
 
 @implementation UIImageView (Night)
 
+-(void)setWade_imagePicker:(NSString *)wade_imagePicker
+{
+    NSArray *aArray = [wade_imagePicker componentsSeparatedByString:@","];
+    
+    switch ([aArray count]) {
+        case 1:
+        {
+            self.dk_imagePicker = DKImagePickerWithNames(aArray[0]);
+        }
+            break;
+        case 2:
+        {
+            self.dk_imagePicker = DKImagePickerWithNames(aArray[0],aArray[1]);
+        }
+            break;
+        case 3:
+        {
+            self.dk_imagePicker = DKImagePickerWithNames(aArray[0],aArray[1],aArray[2]);
+        }
+            break;
+        default:
+            break;
+    }
+}
+-(NSString *)wade_imagePicker
+{
+    return self.wade_imagePicker;
+}
+
 - (instancetype)dk_initWithImagePicker:(DKImagePicker)picker {
     UIImageView *imageView = [self initWithImage:picker(self.dk_manager.themeVersion)];
     imageView.dk_imagePicker = [picker copy];

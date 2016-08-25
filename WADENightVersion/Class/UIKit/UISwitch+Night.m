@@ -43,7 +43,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setThumbTintColor:"];
 }
 
--(void)setwade_thumbTintColorPicker:(NSString *)wade_thumbTintColorPicker
+-(void)setWade_thumbTintColorPicker:(NSString *)wade_thumbTintColorPicker
 {
     self.dk_thumbTintColorPicker = DKColorPickerWithKey(wade_thumbTintColorPicker);
 }
@@ -53,7 +53,7 @@
     return self.wade_thumbTintColorPicker;
 }
 
--(void)setwade_onTintColorPicker:(NSString *)wade_onTintColorPicker
+-(void)setWade_onTintColorPicker:(NSString *)wade_onTintColorPicker
 {
     self.dk_onTintColorPicker = DKColorPickerWithKey(wade_onTintColorPicker);
 }
