@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DKNightVersion.h"
 @interface ViewController : UIViewController
+
+- (IBAction)sw:(UISwitch *)sender;
 
 
 @end

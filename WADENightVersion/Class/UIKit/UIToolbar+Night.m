@@ -31,7 +31,7 @@
     self.barTintColor = picker(self.dk_manager.themeVersion);
     [self.pickers setValue:[picker copy] forKey:@"setBarTintColor:"];
 }
--(void)setwade_barTintColorPicker:(NSString *)wade_barTintColorPicker
+-(void)setWade_barTintColorPicker:(NSString *)wade_barTintColorPicker
 {
     self.dk_barTintColorPicker = DKColorPickerWithKey(wade_barTintColorPicker);
 }

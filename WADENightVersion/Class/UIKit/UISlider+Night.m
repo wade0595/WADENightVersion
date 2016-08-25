@@ -23,7 +23,7 @@
 @dynamic wade_maximumTrackTintColorPicker;
 @dynamic wade_minimumTrackTintColorPicker;
 
--(void)setwade_thumbTintColorPicker:(NSString *)wade_thumbTintColorPicker
+-(void)setWade_thumbTintColorPicker:(NSString *)wade_thumbTintColorPicker
 {
     self.dk_thumbTintColorPicker = DKColorPickerWithKey(wade_thumbTintColorPicker);
 }
@@ -33,7 +33,7 @@
     return self.wade_thumbTintColorPicker;
 }
 
--(void)setwade_maximumTrackTintColorPicker:(NSString *)wade_maximumTrackTintColorPicker
+-(void)setWade_maximumTrackTintColorPicker:(NSString *)wade_maximumTrackTintColorPicker
 {
     self.dk_maximumTrackTintColorPicker = DKColorPickerWithKey(wade_maximumTrackTintColorPicker);
 }
@@ -43,7 +43,7 @@
     return self.wade_maximumTrackTintColorPicker;
 }
 
--(void)setwade_minimumTrackTintColorPicker:(NSString *)wade_minimumTrackTintColorPicker
+-(void)setWade_minimumTrackTintColorPicker:(NSString *)wade_minimumTrackTintColorPicker
 {
     self.dk_minimumTrackTintColorPicker = DKColorPickerWithKey(wade_minimumTrackTintColorPicker);
 }

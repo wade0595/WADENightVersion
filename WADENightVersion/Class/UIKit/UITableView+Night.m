@@ -32,7 +32,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setSeparatorColor:"];
 }
 
--(void)setwade_separatorColorPicker:(NSString *)wade_separatorColorPicker
+-(void)setWade_separatorColorPicker:(NSString *)wade_separatorColorPicker
 {
     self.dk_separatorColorPicker = DKColorPickerWithKey(wade_separatorColorPicker);
 }

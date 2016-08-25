@@ -24,12 +24,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="wa_dk_textColorPicker" value="TEXT"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="wade_textColorPicker" value="TEXT"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qhv-FO-30P">
                                 <rect key="frame" x="260" y="148" width="51" height="31"/>
+                                <connections>
+                                    <action selector="sw:" destination="BYZ-38-t0r" eventType="valueChanged" id="yWc-Re-is7"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

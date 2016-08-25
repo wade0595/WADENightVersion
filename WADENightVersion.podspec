@@ -16,7 +16,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WADENightVersion"
+<<<<<<< HEAD
+  s.version      = "0.0.4"
+=======
   s.version      = “0.0.2”
+>>>>>>> master
   s.summary      = "使用IBInspectable标志一个需要修改的颜色属性"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +97,11 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
+<<<<<<< HEAD
+  s.source       = { :git => "https://github.com/wade0595/WADENightVersion.git", :tag => "0.0.4”}
+=======
   s.source       = { :git => "https://github.com/wade0595/WADENightVersion.git", :tag => “0.0.2”}
+>>>>>>> master
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,10 +112,38 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
+<<<<<<< HEAD
+  s.source_files  = "WADENightVersion/Class/DKNightVersion.h"
+
+=======
   s.source_files  = "WADENightVersion/Class/**/*.{h,m}"
+>>>>>>> master
   # s.exclude_files = "WADENightVersion/Class"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "WADENightVersion/Class/DKNightVersion.h"
+  	
+  s.subspec 'Core' do |ss|
+    ss.source_files = "Class/Core/*.{h,m}", "Class/ColorTable/*{h,m}"
+
+  ss.subspec 'DeallocBlockExecutor' do |sss|
+        sss.source_files = "Class/DeallocBlockExecutor/*.{h,m}"
+  end
+
+  ss.subspec 'extobjc' do |sss|
+        sss.source_files = "Class/extobjc/*.h"
+  end
+
+  end
+
+  s.subspec 'UIKit' do |ss|
+    ss.source_files = "Class/UIKit/*.{h,m}", "Class/Manual/*.{h,m}"
+    ss.dependency 'Class/Core'
+  end
+
+  s.subspec 'CoreAnimation' do |ss|
+    ss.source_files = "Class/CoreAnimation/*.{h,m}"
+    ss.dependency 'Class/Core'
+  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +154,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
+  s.resource = "WADENightVersion/Class/ColorTable/DKColorTable.txt"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

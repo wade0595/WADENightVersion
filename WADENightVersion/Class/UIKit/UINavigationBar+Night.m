@@ -43,7 +43,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setTintColor:"];
 }
 
--(void)setwade_tintColorPicker:(NSString *)wade_tintColorPicker
+-(void)setWade_tintColorPicker:(NSString *)wade_tintColorPicker
 {
     self.dk_tintColorPicker = DKColorPickerWithKey(wade_tintColorPicker);
 }
@@ -53,7 +53,7 @@
     return self.wade_tintColorPicker;
 }
 
--(void)setwade_barTintColorPicker:(NSString *)wade_barTintColorPicker
+-(void)setWade_barTintColorPicker:(NSString *)wade_barTintColorPicker
 {
     self.dk_barTintColorPicker = DKColorPickerWithKey(wade_barTintColorPicker);
 }

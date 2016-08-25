@@ -32,7 +32,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setTintColor:"];
 }
 
--(void)setwade_tintColorPicker:(NSString *)wade_tintColorPicker
+-(void)setWade_tintColorPicker:(NSString *)wade_tintColorPicker
 {
     self.dk_tintColorPicker = DKColorPickerWithKey(wade_tintColorPicker);
 }
