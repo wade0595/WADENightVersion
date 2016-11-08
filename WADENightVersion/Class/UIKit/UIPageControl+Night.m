@@ -44,7 +44,7 @@
 }
 
 
--(void)wd_pageIndicatorTintColorPicker:(NSString *)wd_pageIndicatorTintColorPicker
+-(void)setWd_pageIndicatorTintColorPicker:(NSString *)wd_pageIndicatorTintColorPicker
 {
     self.dk_pageIndicatorTintColorPicker = DKColorPickerWithKey(wd_pageIndicatorTintColorPicker);
 }
@@ -55,7 +55,7 @@
 }
 
 
--(void)wd_currentPageIndicatorTintColorPicker:(NSString *)wd_currentPageIndicatorTintColorPicker
+-(void)setWd_currentPageIndicatorTintColorPicker:(NSString *)wd_currentPageIndicatorTintColorPicker
 {
     self.dk_currentPageIndicatorTintColorPicker = DKColorPickerWithKey(wd_currentPageIndicatorTintColorPicker);
 }

@@ -26,7 +26,7 @@
 @dynamic wd_BackgroundImage;
 @dynamic wd_TitleColorPicker;
 
--(void)wd_TitleColorPicker:(NSString *)wd_TitleColorPicker
+-(void)setWd_TitleColorPicker:(NSString *)wd_TitleColorPicker
 {
     [self dk_setTitleColorPicker:DKColorPickerWithKey(wd_TitleColorPicker) forState:UIControlStateNormal];
 }
@@ -35,7 +35,7 @@
     return self.wd_TitleColorPicker;
 }
 
--(void)wd_BackgroundImage:(NSString *)wd_BackgroundImage
+-(void)setWd_BackgroundImage:(NSString *)wd_BackgroundImage
 {
     NSArray *aArray = [wd_BackgroundImage componentsSeparatedByString:@","];
     
@@ -65,7 +65,7 @@
     return self.wd_BackgroundImage;
 }
 
--(void)wd_Image:(NSString *)wd_Image
+-(void)setWd_Image:(NSString *)wd_Image
 {
     NSArray *aArray = [wd_Image componentsSeparatedByString:@","];
     

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DKNightVersion.h"
+#import "UILabel+Night.h"
 @interface ViewController : UIViewController
 
 - (IBAction)sw:(UISwitch *)sender;

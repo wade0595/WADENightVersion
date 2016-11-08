@@ -18,7 +18,7 @@
 
 @implementation UIImageView (Night)
 
--(void)wd_imagePicker:(NSString *)wd_imagePicker
+-(void)setWd_imagePicker:(NSString *)wd_imagePicker
 {
     NSArray *aArray = [wd_imagePicker componentsSeparatedByString:@","];
     

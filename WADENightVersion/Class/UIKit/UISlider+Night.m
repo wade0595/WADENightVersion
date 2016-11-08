@@ -23,7 +23,7 @@
 @dynamic wd_maximumTrackTintColorPicker;
 @dynamic wd_minimumTrackTintColorPicker;
 
--(void)wd_thumbTintColorPicker:(NSString *)wd_thumbTintColorPicker
+-(void)setWd_thumbTintColorPicker:(NSString *)wd_thumbTintColorPicker
 {
     self.dk_thumbTintColorPicker = DKColorPickerWithKey(wd_thumbTintColorPicker);
 }
@@ -33,7 +33,7 @@
     return self.wd_thumbTintColorPicker;
 }
 
--(void)wd_maximumTrackTintColorPicker:(NSString *)wd_maximumTrackTintColorPicker
+-(void)setWd_maximumTrackTintColorPicker:(NSString *)wd_maximumTrackTintColorPicker
 {
     self.dk_maximumTrackTintColorPicker = DKColorPickerWithKey(wd_maximumTrackTintColorPicker);
 }
@@ -43,7 +43,7 @@
     return self.wd_maximumTrackTintColorPicker;
 }
 
--(void)wd_minimumTrackTintColorPicker:(NSString *)wd_minimumTrackTintColorPicker
+-(void)setWd_minimumTrackTintColorPicker:(NSString *)wd_minimumTrackTintColorPicker
 {
     self.dk_minimumTrackTintColorPicker = DKColorPickerWithKey(wd_minimumTrackTintColorPicker);
 }

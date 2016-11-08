@@ -32,7 +32,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setTextColor:"];
 }
 
--(void)wd_textColorPicker:(NSString *)wd_textColorPicker
+-(void)setWd_textColorPicker:(NSString *)wd_textColorPicker
 {
     self.dk_textColorPicker = DKColorPickerWithKey(wd_textColorPicker);
 }

@@ -32,7 +32,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setSeparatorColor:"];
 }
 
--(void)wd_separatorColorPicker:(NSString *)wd_separatorColorPicker
+-(void)setWd_separatorColorPicker:(NSString *)wd_separatorColorPicker
 {
     self.dk_separatorColorPicker = DKColorPickerWithKey(wd_separatorColorPicker);
 }

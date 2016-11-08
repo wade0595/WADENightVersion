@@ -32,7 +32,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setTintColor:"];
 }
 
--(void)wd_tintColorPicker:(NSString *)wd_tintColorPicker
+-(void)setWd_tintColorPicker:(NSString *)wd_tintColorPicker
 {
     self.dk_tintColorPicker = DKColorPickerWithKey(wd_tintColorPicker);
 }

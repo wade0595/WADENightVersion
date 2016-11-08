@@ -32,7 +32,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setBarTintColor:"];
 }
 
--(void)wd_barTintColorPicker:(NSString *)wd_barTintColorPicker
+-(void)setWd_barTintColorPicker:(NSString *)wd_barTintColorPicker
 {
     self.dk_barTintColorPicker = DKColorPickerWithKey(wd_barTintColorPicker);
 }

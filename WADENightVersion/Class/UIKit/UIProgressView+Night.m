@@ -43,7 +43,7 @@
     [self.pickers setValue:[picker copy] forKey:@"setTrackTintColor:"];
 }
 
--(void)wd_trackTintColorPicker:(NSString *)wd_trackTintColorPicker
+-(void)setWd_trackTintColorPicker:(NSString *)wd_trackTintColorPicker
 {
     self.dk_trackTintColorPicker = DKColorPickerWithKey(wd_trackTintColorPicker);
 }
@@ -53,7 +53,7 @@
     return self.wd_trackTintColorPicker;
 }
 
--(void)wd_progressTintColorPicker:(NSString *)wd_progressTintColorPicker
+-(void)setWd_progressTintColorPicker:(NSString *)wd_progressTintColorPicker
 {
     self.dk_progressTintColorPicker = DKColorPickerWithKey(wd_progressTintColorPicker);
 }
