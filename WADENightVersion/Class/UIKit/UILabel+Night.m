@@ -22,38 +22,38 @@
 
 @implementation UILabel (Night)
 
-@dynamic wade_highlightedTextColorPicker;
-@dynamic wade_textColorPicker;
-@dynamic wade_shadowColorPicker;
+@dynamic wd_highlightedTextColorPicker;
+@dynamic wd_textColorPicker;
+@dynamic wd_shadowColorPicker;
 
--(void)setWade_textColorPicker:(NSString *)wade_textColorPicker
+-(void)wd_textColorPicker:(NSString *)wd_textColorPicker
 {
-    self.dk_textColorPicker = DKColorPickerWithKey(wade_textColorPicker);
+    self.dk_textColorPicker = DKColorPickerWithKey(wd_textColorPicker);
 }
 
--(NSString *)wade_textColorPicker
+-(NSString *)wd_textColorPicker
 {
-    return self.wade_textColorPicker;
+    return self.wd_textColorPicker;
 }
 
--(void)setWade_shadowColorPicker:(NSString *)wade_shadowColorPicker
+-(void)wd_shadowColorPicker:(NSString *)wd_shadowColorPicker
 {
-    self.dk_shadowColorPicker = DKColorPickerWithKey(wade_shadowColorPicker);
+    self.dk_shadowColorPicker = DKColorPickerWithKey(wd_shadowColorPicker);
 }
 
--(NSString *)wade_shadowColorPicker
+-(NSString *)wd_shadowColorPicker
 {
-    return self.wade_shadowColorPicker;
+    return self.wd_shadowColorPicker;
 }
 
--(void)setWade_highlightedTextColorPicker:(NSString *)wade_highlightedTextColorPicker
+-(void)wd_highlightedTextColorPicker:(NSString *)wd_highlightedTextColorPicker
 {
-    self.dk_highlightedTextColorPicker = DKColorPickerWithKey(wade_highlightedTextColorPicker);
+    self.dk_highlightedTextColorPicker = DKColorPickerWithKey(wd_highlightedTextColorPicker);
 }
 
--(NSString *)wade_highlightedTextColorPicker
+-(NSString *)wd_highlightedTextColorPicker
 {
-    return self.wade_highlightedTextColorPicker;
+    return self.wd_highlightedTextColorPicker;
 }
 
 

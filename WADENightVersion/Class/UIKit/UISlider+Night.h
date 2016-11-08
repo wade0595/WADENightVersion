@@ -21,9 +21,9 @@ IB_DESIGNABLE
 @property (nonatomic, copy, setter = dk_setThumbTintColorPicker:) DKColorPicker dk_thumbTintColorPicker;
 
 
-@property (nonatomic, copy) IBInspectable NSString *wade_minimumTrackTintColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_minimumTrackTintColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_maximumTrackTintColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_maximumTrackTintColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_thumbTintColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_thumbTintColorPicker;
 @end

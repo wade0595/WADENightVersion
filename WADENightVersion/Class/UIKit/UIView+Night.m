@@ -20,8 +20,8 @@
 
 @implementation UIView (Night)
 
-@dynamic wade_tintColorPicker;
-@dynamic wade_backgroundColorPicker;
+@dynamic wd_tintColorPicker;
+@dynamic wd_backgroundColorPicker;
 
 - (DKColorPicker)dk_backgroundColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_backgroundColorPicker));
@@ -43,23 +43,23 @@
     [self.pickers setValue:[picker copy] forKey:@"setTintColor:"];
 }
 
--(void)setWade_tintColorPicker:(NSString *)wade_tintColorPicker
+-(void)wd_tintColorPicker:(NSString *)wd_tintColorPicker
 {
-    self.dk_tintColorPicker = DKColorPickerWithKey(wade_tintColorPicker);
+    self.dk_tintColorPicker = DKColorPickerWithKey(wd_tintColorPicker);
 }
 
--(NSString*)wade_tintColorPicker
+-(NSString*)wd_tintColorPicker
 {
-    return self.wade_tintColorPicker;
+    return self.wd_tintColorPicker;
 }
 
--(void)setWade_backgroundColorPicker:(NSString *)wade_backgroundColorPicker
+-(void)wd_backgroundColorPicker:(NSString *)wd_backgroundColorPicker
 {
-    self.dk_backgroundColorPicker = DKColorPickerWithKey(wade_backgroundColorPicker);
+    self.dk_backgroundColorPicker = DKColorPickerWithKey(wd_backgroundColorPicker);
 }
 
--(NSString*)wade_backgroundColorPicker
+-(NSString*)wd_backgroundColorPicker
 {
-    return self.wade_backgroundColorPicker;
+    return self.wd_backgroundColorPicker;
 }
 @end

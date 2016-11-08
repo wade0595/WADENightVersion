@@ -19,8 +19,8 @@ IB_DESIGNABLE
 @property (nonatomic, copy, setter = dk_setProgressTintColorPicker:) DKColorPicker dk_progressTintColorPicker;
 @property (nonatomic, copy, setter = dk_setTrackTintColorPicker:) DKColorPicker dk_trackTintColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_progressTintColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_progressTintColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_trackTintColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_trackTintColorPicker;
 
 @end

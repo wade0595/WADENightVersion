@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, copy, setter = dk_setImagePicker:) DKImagePicker dk_imagePicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_imagePicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_imagePicker;
 
 @end
 

@@ -22,22 +22,22 @@
 
 @implementation UIButton (Night)
 
-@dynamic wade_Image;
-@dynamic wade_BackgroundImage;
-@dynamic wade_TitleColorPicker;
+@dynamic wd_Image;
+@dynamic wd_BackgroundImage;
+@dynamic wd_TitleColorPicker;
 
--(void)setWade_TitleColorPicker:(NSString *)wade_TitleColorPicker
+-(void)wd_TitleColorPicker:(NSString *)wd_TitleColorPicker
 {
-    [self dk_setTitleColorPicker:DKColorPickerWithKey(wade_TitleColorPicker) forState:UIControlStateNormal];
+    [self dk_setTitleColorPicker:DKColorPickerWithKey(wd_TitleColorPicker) forState:UIControlStateNormal];
 }
--(NSString *)wade_TitleColorPicker
+-(NSString *)wd_TitleColorPicker
 {
-    return self.wade_TitleColorPicker;
+    return self.wd_TitleColorPicker;
 }
 
--(void)setWade_BackgroundImage:(NSString *)wade_BackgroundImage
+-(void)wd_BackgroundImage:(NSString *)wd_BackgroundImage
 {
-    NSArray *aArray = [wade_BackgroundImage componentsSeparatedByString:@","];
+    NSArray *aArray = [wd_BackgroundImage componentsSeparatedByString:@","];
     
     switch ([aArray count]) {
         case 1:
@@ -60,14 +60,14 @@
     }
     
 }
--(NSString *)wade_BackgroundImage
+-(NSString *)wd_BackgroundImage
 {
-    return self.wade_BackgroundImage;
+    return self.wd_BackgroundImage;
 }
 
--(void)setWade_Image:(NSString *)wade_Image
+-(void)wd_Image:(NSString *)wd_Image
 {
-    NSArray *aArray = [wade_Image componentsSeparatedByString:@","];
+    NSArray *aArray = [wd_Image componentsSeparatedByString:@","];
     
     switch ([aArray count]) {
         case 1:
@@ -90,9 +90,9 @@
     }
 
 }
--(NSString *)wade_Image
+-(NSString *)wd_Image
 {
-    return self.wade_Image;
+    return self.wd_Image;
 }
 
 

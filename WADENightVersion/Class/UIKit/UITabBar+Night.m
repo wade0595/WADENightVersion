@@ -20,7 +20,7 @@
 
 @implementation UITabBar (Night)
 
-@dynamic wade_barTintColorPicker;
+@dynamic wd_barTintColorPicker;
 
 - (DKColorPicker)dk_barTintColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_barTintColorPicker));
@@ -32,13 +32,13 @@
     [self.pickers setValue:[picker copy] forKey:@"setBarTintColor:"];
 }
 
--(void)setWade_barTintColorPicker:(NSString *)wade_barTintColorPicker
+-(void)wd_barTintColorPicker:(NSString *)wd_barTintColorPicker
 {
-    self.dk_barTintColorPicker = DKColorPickerWithKey(wade_barTintColorPicker);
+    self.dk_barTintColorPicker = DKColorPickerWithKey(wd_barTintColorPicker);
 }
 
--(NSString*)wade_barTintColorPicker
+-(NSString*)wd_barTintColorPicker
 {
-    return self.wade_barTintColorPicker;
+    return self.wd_barTintColorPicker;
 }
 @end

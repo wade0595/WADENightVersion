@@ -20,8 +20,8 @@
 
 @implementation UINavigationBar (Night)
 
-@dynamic wade_tintColorPicker;
-@dynamic wade_barTintColorPicker;
+@dynamic wd_tintColorPicker;
+@dynamic wd_barTintColorPicker;
 
 - (DKColorPicker)dk_barTintColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_barTintColorPicker));
@@ -43,24 +43,24 @@
     [self.pickers setValue:[picker copy] forKey:@"setTintColor:"];
 }
 
--(void)setWade_tintColorPicker:(NSString *)wade_tintColorPicker
+-(void)wd_tintColorPicker:(NSString *)wd_tintColorPicker
 {
-    self.dk_tintColorPicker = DKColorPickerWithKey(wade_tintColorPicker);
+    self.dk_tintColorPicker = DKColorPickerWithKey(wd_tintColorPicker);
 }
 
--(NSString*)wade_tintColorPicker
+-(NSString*)wd_tintColorPicker
 {
-    return self.wade_tintColorPicker;
+    return self.wd_tintColorPicker;
 }
 
--(void)setWade_barTintColorPicker:(NSString *)wade_barTintColorPicker
+-(void)wd_barTintColorPicker:(NSString *)wd_barTintColorPicker
 {
-    self.dk_barTintColorPicker = DKColorPickerWithKey(wade_barTintColorPicker);
+    self.dk_barTintColorPicker = DKColorPickerWithKey(wd_barTintColorPicker);
 }
 
--(NSString*)wade_barTintColorPicker
+-(NSString*)wd_barTintColorPicker
 {
-    return self.wade_barTintColorPicker;
+    return self.wd_barTintColorPicker;
 }
 
 @end

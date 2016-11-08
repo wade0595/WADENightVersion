@@ -20,7 +20,7 @@
 
 @implementation UITextField (Night)
 
-@dynamic wade_textColorPicker;
+@dynamic wd_textColorPicker;
 
 - (DKColorPicker)dk_textColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_textColorPicker));
@@ -32,14 +32,14 @@
     [self.pickers setValue:[picker copy] forKey:@"setTextColor:"];
 }
 
--(void)setWade_textColorPicker:(NSString *)wade_textColorPicker
+-(void)wd_textColorPicker:(NSString *)wd_textColorPicker
 {
-    self.dk_textColorPicker = DKColorPickerWithKey(wade_textColorPicker);
+    self.dk_textColorPicker = DKColorPickerWithKey(wd_textColorPicker);
 }
 
--(NSString *)wade_textColorPicker
+-(NSString *)wd_textColorPicker
 {
-    return self.wade_textColorPicker;
+    return self.wd_textColorPicker;
 }
 
 @end

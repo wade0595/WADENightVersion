@@ -18,9 +18,9 @@
 
 @implementation UIImageView (Night)
 
--(void)setWade_imagePicker:(NSString *)wade_imagePicker
+-(void)wd_imagePicker:(NSString *)wd_imagePicker
 {
-    NSArray *aArray = [wade_imagePicker componentsSeparatedByString:@","];
+    NSArray *aArray = [wd_imagePicker componentsSeparatedByString:@","];
     
     switch ([aArray count]) {
         case 1:
@@ -42,9 +42,9 @@
             break;
     }
 }
--(NSString *)wade_imagePicker
+-(NSString *)wd_imagePicker
 {
-    return self.wade_imagePicker;
+    return self.wd_imagePicker;
 }
 
 - (instancetype)dk_initWithImagePicker:(DKImagePicker)picker {

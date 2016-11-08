@@ -18,6 +18,6 @@ IB_DESIGNABLE
 
 @property (nonatomic, copy, setter = dk_setTextColorPicker:) DKColorPicker dk_textColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_textColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_textColorPicker;
 
 @end

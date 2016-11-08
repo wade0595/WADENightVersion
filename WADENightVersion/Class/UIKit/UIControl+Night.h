@@ -15,6 +15,6 @@ IB_DESIGNABLE
 
 @property (nonatomic, copy, setter = dk_setTintColorPicker:) DKColorPicker dk_tintColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_tintColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_tintColorPicker;
 
 @end

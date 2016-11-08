@@ -19,11 +19,11 @@ IB_DESIGNABLE
 
 - (void)dk_setImage:(DKImagePicker)picker forState:(UIControlState)state;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_TitleColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_TitleColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_BackgroundImage;
+@property (nonatomic, copy) IBInspectable NSString *wd_BackgroundImage;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_Image;
+@property (nonatomic, copy) IBInspectable NSString *wd_Image;
 
 
 

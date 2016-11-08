@@ -20,8 +20,8 @@
 
 @implementation UISwitch (Night)
 
-@dynamic wade_thumbTintColorPicker;
-@dynamic wade_onTintColorPicker;
+@dynamic wd_thumbTintColorPicker;
+@dynamic wd_onTintColorPicker;
 
 - (DKColorPicker)dk_onTintColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_onTintColorPicker));
@@ -43,23 +43,23 @@
     [self.pickers setValue:[picker copy] forKey:@"setThumbTintColor:"];
 }
 
--(void)setWade_thumbTintColorPicker:(NSString *)wade_thumbTintColorPicker
+-(void)wd_thumbTintColorPicker:(NSString *)wd_thumbTintColorPicker
 {
-    self.dk_thumbTintColorPicker = DKColorPickerWithKey(wade_thumbTintColorPicker);
+    self.dk_thumbTintColorPicker = DKColorPickerWithKey(wd_thumbTintColorPicker);
 }
 
--(NSString*)wade_thumbTintColorPicker
+-(NSString*)wd_thumbTintColorPicker
 {
-    return self.wade_thumbTintColorPicker;
+    return self.wd_thumbTintColorPicker;
 }
 
--(void)setWade_onTintColorPicker:(NSString *)wade_onTintColorPicker
+-(void)wd_onTintColorPicker:(NSString *)wd_onTintColorPicker
 {
-    self.dk_onTintColorPicker = DKColorPickerWithKey(wade_onTintColorPicker);
+    self.dk_onTintColorPicker = DKColorPickerWithKey(wd_onTintColorPicker);
 }
 
--(NSString*)wade_onTintColorPicker
+-(NSString*)wd_onTintColorPicker
 {
-    return self.wade_onTintColorPicker;
+    return self.wd_onTintColorPicker;
 }
 @end

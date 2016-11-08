@@ -20,8 +20,8 @@
 
 @implementation UIProgressView (Night)
 
-@dynamic wade_trackTintColorPicker;
-@dynamic wade_progressTintColorPicker;
+@dynamic wd_trackTintColorPicker;
+@dynamic wd_progressTintColorPicker;
 
 - (DKColorPicker)dk_progressTintColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_progressTintColorPicker));
@@ -43,24 +43,24 @@
     [self.pickers setValue:[picker copy] forKey:@"setTrackTintColor:"];
 }
 
--(void)setWade_trackTintColorPicker:(NSString *)wade_trackTintColorPicker
+-(void)wd_trackTintColorPicker:(NSString *)wd_trackTintColorPicker
 {
-    self.dk_trackTintColorPicker = DKColorPickerWithKey(wade_trackTintColorPicker);
+    self.dk_trackTintColorPicker = DKColorPickerWithKey(wd_trackTintColorPicker);
 }
 
--(NSString*)wade_trackTintColorPicker
+-(NSString*)wd_trackTintColorPicker
 {
-    return self.wade_trackTintColorPicker;
+    return self.wd_trackTintColorPicker;
 }
 
--(void)setWade_progressTintColorPicker:(NSString *)wade_progressTintColorPicker
+-(void)wd_progressTintColorPicker:(NSString *)wd_progressTintColorPicker
 {
-    self.dk_progressTintColorPicker = DKColorPickerWithKey(wade_progressTintColorPicker);
+    self.dk_progressTintColorPicker = DKColorPickerWithKey(wd_progressTintColorPicker);
 }
 
--(NSString*)wade_progressTintColorPicker
+-(NSString*)wd_progressTintColorPicker
 {
-    return self.wade_progressTintColorPicker;
+    return self.wd_progressTintColorPicker;
 }
 
 @end

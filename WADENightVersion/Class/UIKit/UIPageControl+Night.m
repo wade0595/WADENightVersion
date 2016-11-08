@@ -20,8 +20,8 @@
 
 @implementation UIPageControl (Night)
 
-@dynamic wade_pageIndicatorTintColorPicker;
-@dynamic wade_currentPageIndicatorTintColorPicker;
+@dynamic wd_pageIndicatorTintColorPicker;
+@dynamic wd_currentPageIndicatorTintColorPicker;
 
 - (DKColorPicker)dk_pageIndicatorTintColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_pageIndicatorTintColorPicker));
@@ -44,25 +44,25 @@
 }
 
 
--(void)setWade_pageIndicatorTintColorPicker:(NSString *)wade_pageIndicatorTintColorPicker
+-(void)wd_pageIndicatorTintColorPicker:(NSString *)wd_pageIndicatorTintColorPicker
 {
-    self.dk_pageIndicatorTintColorPicker = DKColorPickerWithKey(wade_pageIndicatorTintColorPicker);
+    self.dk_pageIndicatorTintColorPicker = DKColorPickerWithKey(wd_pageIndicatorTintColorPicker);
 }
 
--(NSString*)wade_pageIndicatorTintColorPicker
+-(NSString*)wd_pageIndicatorTintColorPicker
 {
-    return self.wade_pageIndicatorTintColorPicker;
+    return self.wd_pageIndicatorTintColorPicker;
 }
 
 
--(void)setWade_currentPageIndicatorTintColorPicker:(NSString *)wade_currentPageIndicatorTintColorPicker
+-(void)wd_currentPageIndicatorTintColorPicker:(NSString *)wd_currentPageIndicatorTintColorPicker
 {
-    self.dk_currentPageIndicatorTintColorPicker = DKColorPickerWithKey(wade_currentPageIndicatorTintColorPicker);
+    self.dk_currentPageIndicatorTintColorPicker = DKColorPickerWithKey(wd_currentPageIndicatorTintColorPicker);
 }
 
--(NSString*)wade_currentPageIndicatorTintColorPicker
+-(NSString*)wd_currentPageIndicatorTintColorPicker
 {
-    return self.wade_currentPageIndicatorTintColorPicker;
+    return self.wd_currentPageIndicatorTintColorPicker;
 }
 
 @end

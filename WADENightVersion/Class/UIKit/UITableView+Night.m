@@ -20,7 +20,7 @@
 
 @implementation UITableView (Night)
 
-@dynamic wade_separatorColorPicker;
+@dynamic wd_separatorColorPicker;
 
 - (DKColorPicker)dk_separatorColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_separatorColorPicker));
@@ -32,14 +32,14 @@
     [self.pickers setValue:[picker copy] forKey:@"setSeparatorColor:"];
 }
 
--(void)setWade_separatorColorPicker:(NSString *)wade_separatorColorPicker
+-(void)wd_separatorColorPicker:(NSString *)wd_separatorColorPicker
 {
-    self.dk_separatorColorPicker = DKColorPickerWithKey(wade_separatorColorPicker);
+    self.dk_separatorColorPicker = DKColorPickerWithKey(wd_separatorColorPicker);
 }
 
--(NSString*)wade_separatorColorPicker
+-(NSString*)wd_separatorColorPicker
 {
-    return self.wade_separatorColorPicker;
+    return self.wd_separatorColorPicker;
 }
 
 @end

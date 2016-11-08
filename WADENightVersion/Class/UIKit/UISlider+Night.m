@@ -19,38 +19,38 @@
 @end
 
 @implementation UISlider (Night)
-@dynamic wade_thumbTintColorPicker;
-@dynamic wade_maximumTrackTintColorPicker;
-@dynamic wade_minimumTrackTintColorPicker;
+@dynamic wd_thumbTintColorPicker;
+@dynamic wd_maximumTrackTintColorPicker;
+@dynamic wd_minimumTrackTintColorPicker;
 
--(void)setWade_thumbTintColorPicker:(NSString *)wade_thumbTintColorPicker
+-(void)wd_thumbTintColorPicker:(NSString *)wd_thumbTintColorPicker
 {
-    self.dk_thumbTintColorPicker = DKColorPickerWithKey(wade_thumbTintColorPicker);
+    self.dk_thumbTintColorPicker = DKColorPickerWithKey(wd_thumbTintColorPicker);
 }
 
--(NSString *)wade_thumbTintColorPicker
+-(NSString *)wd_thumbTintColorPicker
 {
-    return self.wade_thumbTintColorPicker;
+    return self.wd_thumbTintColorPicker;
 }
 
--(void)setWade_maximumTrackTintColorPicker:(NSString *)wade_maximumTrackTintColorPicker
+-(void)wd_maximumTrackTintColorPicker:(NSString *)wd_maximumTrackTintColorPicker
 {
-    self.dk_maximumTrackTintColorPicker = DKColorPickerWithKey(wade_maximumTrackTintColorPicker);
+    self.dk_maximumTrackTintColorPicker = DKColorPickerWithKey(wd_maximumTrackTintColorPicker);
 }
 
--(NSString *)wade_maximumTrackTintColorPicker
+-(NSString *)wd_maximumTrackTintColorPicker
 {
-    return self.wade_maximumTrackTintColorPicker;
+    return self.wd_maximumTrackTintColorPicker;
 }
 
--(void)setWade_minimumTrackTintColorPicker:(NSString *)wade_minimumTrackTintColorPicker
+-(void)wd_minimumTrackTintColorPicker:(NSString *)wd_minimumTrackTintColorPicker
 {
-    self.dk_minimumTrackTintColorPicker = DKColorPickerWithKey(wade_minimumTrackTintColorPicker);
+    self.dk_minimumTrackTintColorPicker = DKColorPickerWithKey(wd_minimumTrackTintColorPicker);
 }
 
--(NSString *)wade_minimumTrackTintColorPicker
+-(NSString *)wd_minimumTrackTintColorPicker
 {
-    return self.wade_minimumTrackTintColorPicker;
+    return self.wd_minimumTrackTintColorPicker;
 }
 
 

@@ -20,7 +20,7 @@
 
 @implementation UIControl (Night)
 
-@dynamic wade_tintColorPicker;
+@dynamic wd_tintColorPicker;
 
 - (DKColorPicker)dk_tintColorPicker {
     return objc_getAssociatedObject(self, @selector(dk_tintColorPicker));
@@ -32,13 +32,13 @@
     [self.pickers setValue:[picker copy] forKey:@"setTintColor:"];
 }
 
--(void)setWade_tintColorPicker:(NSString *)wade_tintColorPicker
+-(void)wd_tintColorPicker:(NSString *)wd_tintColorPicker
 {
-    self.dk_tintColorPicker = DKColorPickerWithKey(wade_tintColorPicker);
+    self.dk_tintColorPicker = DKColorPickerWithKey(wd_tintColorPicker);
 }
 
--(NSString*)wade_tintColorPicker
+-(NSString*)wd_tintColorPicker
 {
-    return self.wade_tintColorPicker;
+    return self.wd_tintColorPicker;
 }
 @end

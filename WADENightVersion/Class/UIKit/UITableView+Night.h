@@ -18,6 +18,6 @@ IB_DESIGNABLE
 
 @property (nonatomic, copy, setter = dk_setSeparatorColorPicker:) DKColorPicker dk_separatorColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_separatorColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_separatorColorPicker;
 
 @end

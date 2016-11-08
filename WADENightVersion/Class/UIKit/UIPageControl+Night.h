@@ -19,8 +19,8 @@ IB_DESIGNABLE
 @property (nonatomic, copy, setter = dk_setPageIndicatorTintColorPicker:) DKColorPicker dk_pageIndicatorTintColorPicker;
 @property (nonatomic, copy, setter = dk_setCurrentPageIndicatorTintColorPicker:) DKColorPicker dk_currentPageIndicatorTintColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_pageIndicatorTintColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_pageIndicatorTintColorPicker;
 
-@property (nonatomic, copy) IBInspectable NSString *wade_currentPageIndicatorTintColorPicker;
+@property (nonatomic, copy) IBInspectable NSString *wd_currentPageIndicatorTintColorPicker;
 
 @end
